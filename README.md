@@ -1,9 +1,9 @@
 # sage-300-mcp-server-by-cdata
 CData's Model Context Protocol (MCP) Server for Sage 300
 
-:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for Sage 300 (beta)](https://www.cdata.com/download/download.aspx?sku=GTZM-V&type=beta). 
+:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for Sage 300](https://www.cdata.com/drivers/sage300/download/mcp/). 
 ## Purpose
-We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data Sage 300 supported by the [CData JDBC Driver for Sage 300](https://www.cdata.com/drivers/sage300/jdbc).
+We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data Sage 300 supported by the [CData JDBC Driver for Sage 300](https://www.cdata.com/drivers/sage300/jdbc/).
 
 CData JDBC Driver connects to Sage 300 by exposing them as relational SQL models.
 
@@ -20,7 +20,7 @@ This server wraps that driver and makes Sage 300 data available through a simple
       mvn clean install
       ``` 
       This creates the JAR file: CDataMCP-jar-with-dependencies.jar
-2. Download and install the CData JDBC Driver for {source}: [https://www.cdata.com/drivers/sage300/download/jdbc](https://www.cdata.com/drivers/sage300/download/jdbc)
+2. Download and install the CData JDBC Driver for {source}: [https://www.cdata.com/drivers/sage300/download/jdbc](https://www.cdata.com/drivers/sage300/download/jdbc/)
 3. License the CData JDBC Driver:
     * Navigate to the `lib` folder in the installation directory, typically:
         * (Windows) `C:\Program Files\CData\CData JDBC Driver for Sage 300\`
